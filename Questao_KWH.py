@@ -3,7 +3,7 @@ bandeira = input('Digite a bandeira: ').lower() # BANDEIRA = bandeira
 
 if qtd_kwh <= 100:
     kwh = 0.50
-if qtd_kwh >= 101 and qtd_kwh <= 200:
+if qtd_kwh <= 200:
     kwh = 0.70
 else:
     kwh = 0.90
