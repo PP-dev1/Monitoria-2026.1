@@ -4,7 +4,7 @@ multi = False
 numero = float(input(f"Entre com o número {i} do conjunto: "))
 
 while numero >= 0:
-    if numero % 10 != 0: # Verificação para saber se é multiplo de 10
+    if numero % 10 == 0: # Verificação para saber se é multiplo de 10
         multi = True # Se for, colocar True na variavel Multi
 
     i += 1
