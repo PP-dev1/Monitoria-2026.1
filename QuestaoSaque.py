@@ -7,4 +7,5 @@ resto = resto - NotasCinquenta * 50
 NotasDez = resto // 10
 resto = resto - NotasDez * 10
 Moeda = resto // 10
-print(f'{num} = {NotasCem} Nota de Cem {NotasCinquenta} Nota de Cinquenta {NotasDez} Nota de Dez {Moeda} Moeda de um real')
+print(f'{num} = {NotasCem} Nota de Cem {NotasCinquenta} Nota de Cinquenta {NotasDez}'
+      f' Nota de Dez {Moeda} Moeda de um real')

@@ -18,5 +18,4 @@ while True:
         print("Tenha um bom dia!")
         break
     elif op == 1:
-        pass
-
+        continue
