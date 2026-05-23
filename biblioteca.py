@@ -15,7 +15,7 @@ for i in range(qtd):
         print(f'O número aleatorio foi: {numAleatorio}, vc perdeu! :(')
         break
     else:
-        print(f'O nuúmero aleatório foi: {numAleatorio}, vc ganhou! :)')
+        print(f'O número aleatório foi: {numAleatorio}, vc ganhou! :)')
         qtdV += 1
 
 print(f'você ganhou: {qtdV} vez(es)')
