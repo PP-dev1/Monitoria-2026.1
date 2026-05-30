@@ -8,6 +8,7 @@ def somar(n1, n2):
     resultado = n1 + n2
     return resultado
 
+# print(somar('Pedro ', 'Paulo'))
 
 def verificar_par(numero):
     if numero % 2 == 0:
@@ -15,18 +16,21 @@ def verificar_par(numero):
     else:
         return False
 
+# verificar_par(2)
 
-def somar_lista(*numeros):
+
+def somar_numeros(*numeros):
     resultado = 0
     for n in numeros:
         resultado += n
     return resultado
 
 
-somas = somar_lista(6, 2, 7, 9)
+# print(somar_numeros(10, 20, 30, 40))
 
 
 # print(f'O resultado é: {somas}')
+
 
 def calcular_media(*numeros):
     qtd = len(numeros)
@@ -40,6 +44,7 @@ def calcular_media(*numeros):
 # print(calcular_media(7, 2, 4, 9))
 
 def informacoes_pessoais(**informacoes):
+    print(informacoes)
     for chave, valor in informacoes.items():
         print(f'{chave}: {valor}')
 
